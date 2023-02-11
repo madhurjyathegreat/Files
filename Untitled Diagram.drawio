@@ -1,11 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T08:43:35.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="6PARWhuAG82d6PeiSEqW" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-11T09:52:01.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="tw4YYDP5WmR4qe_ea36i" version="20.8.20" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="747" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1680" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QJByl8YOd0tT788hYlSI-1" value="News Reviews" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QJByl8YOd0tT788hYlSI-1" value="News Reviews&lt;br&gt;columns,title and authors data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350.3157894736844" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-3" value="Shuffle the data and stratification on fake_genuine column" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-7" value="Preprocessing on the dataset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;entryX=0.445;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="QJByl8YOd0tT788hYlSI-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="50" y="490" as="sourcePoint" />
+            <mxPoint x="340" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-9" value="BERTopic +MMF&amp;nbsp;&lt;br&gt;Best k topis using coherence score for determing topics" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-12" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="QJByl8YOd0tT788hYlSI-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint y="620" as="sourcePoint" />
+            <mxPoint x="280" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-13" target="QJByl8YOd0tT788hYlSI-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-13" value="Linguistic Features" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="580" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="-12.5" y="630" width="22.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-19" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="520" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-21" value="ML Algos(SVM,,NB,XGBoost&lt;br&gt;and RF)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-76.25" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-21" target="QJByl8YOd0tT788hYlSI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-25" value="TabTransformers for Categorical Features(DNN Architecture)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-27" value="AMR representation of sentence. Creation of node features and graph classification using Stellar graph" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="690" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="QJByl8YOd0tT788hYlSI-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="330" as="sourcePoint" />
+            <mxPoint x="510" y="690" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-31" value="Adjacency Matrix creation from&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
