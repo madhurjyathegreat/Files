@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T09:52:01.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="tw4YYDP5WmR4qe_ea36i" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-11T10:31:17.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="14GKwTL6S7vjCXuxdlpR" version="20.8.20" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1680" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,18 +8,18 @@
           <mxGeometry x="290" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJByl8YOd0tT788hYlSI-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="90" width="20" height="50" as="geometry" />
+          <mxGeometry x="340" y="90" width="20" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QJByl8YOd0tT788hYlSI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-3">
+        <mxCell id="QJByl8YOd0tT788hYlSI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-3" target="QJByl8YOd0tT788hYlSI-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350.3157894736844" y="690" as="targetPoint" />
+            <mxPoint x="350" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QJByl8YOd0tT788hYlSI-3" value="Shuffle the data and stratification on fake_genuine column" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJByl8YOd0tT788hYlSI-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="210" width="20" height="50" as="geometry" />
+          <mxGeometry x="340" y="210" width="20" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJByl8YOd0tT788hYlSI-7" value="Preprocessing on the dataset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="150" width="120" height="60" as="geometry" />
@@ -53,27 +53,57 @@
         <mxCell id="QJByl8YOd0tT788hYlSI-19" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
           <mxGeometry x="-10" y="520" width="20" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QJByl8YOd0tT788hYlSI-21" value="ML Algos(SVM,,NB,XGBoost&lt;br&gt;and RF)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-76.25" y="690" width="150" height="60" as="geometry" />
+        <mxCell id="QJByl8YOd0tT788hYlSI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1.25" y="750" as="sourcePoint" />
+            <mxPoint x="-1.25" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="QJByl8YOd0tT788hYlSI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-21" target="QJByl8YOd0tT788hYlSI-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QJByl8YOd0tT788hYlSI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="820" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="QJByl8YOd0tT788hYlSI-25" value="TabTransformers for Categorical Features(DNN Architecture)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QJByl8YOd0tT788hYlSI-27" value="AMR representation of sentence. Creation of node features and graph classification using Stellar graph" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="690" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="QJByl8YOd0tT788hYlSI-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="QJByl8YOd0tT788hYlSI-31">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="330" as="sourcePoint" />
-            <mxPoint x="510" y="690" as="targetPoint" />
-            <Array as="points" />
+        <mxCell id="QJByl8YOd0tT788hYlSI-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-27" target="QJByl8YOd0tT788hYlSI-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QJByl8YOd0tT788hYlSI-31" value="Adjacency Matrix creation from&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QJByl8YOd0tT788hYlSI-27" value="Creation of node features and graph classification using Stellar graph" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-31" target="QJByl8YOd0tT788hYlSI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-31" value="Adjacency Matrix creation from AMR&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-32" target="QJByl8YOd0tT788hYlSI-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJByl8YOd0tT788hYlSI-32" target="QJByl8YOd0tT788hYlSI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-32" value="Abstract Meaning Representation of reviews." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-39" value="ML Algos(SVM,,NB,XGBoost&lt;br&gt;and RF)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-76.25" y="690" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-40" value="DNN Architecture" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="820" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-42" value="Stellar Graph using GCN" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="820" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-43" value="DNN Architecture" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="820" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QJByl8YOd0tT788hYlSI-45" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="990" width="660" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
